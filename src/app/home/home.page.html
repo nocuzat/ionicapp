@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title >
+      First Ionic App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating" type="text">Name:</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating" type="text">Email:</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating" type="number">Password:</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-button color="secondary" name="submit" (click)="onSubmit()">Log in</ion-button>
+  <ion-button color="secondary" name="submit" (click)="onSend()">Send</ion-button>
+</ion-content>
